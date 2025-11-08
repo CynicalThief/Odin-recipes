@@ -1,0 +1,30 @@
+* {
+    font-family: "Brush Script MT", cursive;
+}
+
+body {
+    background: url('https://watermark.lovepik.com/photo/50092/7775.jpg_wh1200.jpg') center/cover no-repeat;
+    background-size: cover;  
+}
+.container {
+    background-color: aliceblue;
+    border-color: black;
+    margin: 32px auto;
+    padding: 14px ;
+    width: 500px auto;
+    transform: scale(0.9);
+    transform-origin: center;
+}
+
+.head, .head2 {
+    text-align: center;
+}
+.container.image{
+    display: flex;
+    justify-content: center;
+}
+.list{
+    text-align: center;
+    margin-right: 60px;
+    list-style-position: inside;
+}

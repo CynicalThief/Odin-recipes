@@ -1,0 +1,46 @@
+* {
+    font-family: "Brush Script MT", cursive;
+}
+
+body {
+    background: url('https://watermark.lovepik.com/photo/50092/7775.jpg_wh1200.jpg') center/cover no-repeat;
+    background-size: cover;
+    
+}
+body::before {
+    filter: blur(8px);
+}
+
+
+.container {
+    background-color: aliceblue;
+    border-color: black;
+    margin: 32px auto;
+    padding: 14px ;
+    width: 500px auto;
+    transform: scale(0.9);
+    transform-origin: center;
+    
+}
+.container.two {
+    margin: 4px;
+    text-align: center;
+}
+.container.image{
+    display: flex;
+    justify-content: center;
+}
+.header, .quote, .pexp, .ingred, .list.one, .dic, .back {
+    text-align: center;
+    font-size:large;
+}
+
+
+.list{
+    margin-right: 60px;
+    list-style-position: inside;
+}
+.list.two{
+    list-style: none;
+}
+
