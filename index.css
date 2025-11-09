@@ -5,6 +5,12 @@
 body {
     background: url('https://watermark.lovepik.com/photo/50092/7775.jpg_wh1200.jpg') center/cover no-repeat;
     background-size: cover;  
+    background-position: center;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 .container {
     background-color: aliceblue;
@@ -27,4 +33,27 @@ body {
     text-align: center;
     margin-right: 60px;
     list-style-position: inside;
+}
+
+.flex01 {
+    display: flex;
+    border-color: black;
+    border: 3px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1cm;
+}
+
+.food {
+    border-color: black;
+    border: 3px;
+    text-align: center;
+    border-style: solid;
+    padding: 2px;
+}
+
+.image {
+    height: 120px;
+    width: auto;
 }
